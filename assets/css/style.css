@@ -1,0 +1,1067 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: roboto, sans-serif;
+}
+.top{
+	background-color: #F2F2F2 !important;
+}
+.email-text{
+	color: black;
+	text-align: left;
+	text-decoration: none;
+}
+.social-icon{
+	font-size: 25px;
+	color: white !important;
+	align-items: center;
+	margin-left: 200px;
+	padding-right: 10px;
+}
+.social-icon:hover{
+	color: #1298F6 !important;
+}
+.social-fb{
+	color: white;
+	text-decoration: none;
+}
+.social-fb:hover{
+	color: #1298F6 !important;
+}
+.nav{
+	margin: opx;
+	background-color: #08A2C6 !important;
+}
+.nav-link{
+	color: white;
+}
+
+.logo{
+	color: white;
+	padding-left: 100px;
+}
+.nav-link:hover{
+	color: #00FFF7;
+}
+.dropdown-item:hover{
+	background-color: tomato;
+	color: white;
+}
+/*digital clock start*/
+
+.clock{
+  font-size: 20px;
+  width: 200px;
+  display: inline-block;
+  margin-left: 30px;
+  margin-top: 5px;
+  text-align: center;
+  border: 1px solid lightblue;
+  border-radius: 20px;
+  color: #E30EDC;;
+}
+.flag{
+	width: 40px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 20px;
+  border-color: #05BEEE;
+}
+
+/* Set a style for all buttons */
+.signin{
+	color: white;
+	border-color: #31D2F2;
+	background-color: #31D2F2;
+	padding-left: 40px;
+	padding-right: 40px;
+	display: inline-block;
+	text-align: center;
+	border-radius: 10px;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+	text-align: center;
+	width: 120px;
+	height: 35px;
+	background-color: #f44336;
+	border-color: #f44336;
+	color: white;
+	border-radius: 20px;
+}
+
+.submit{
+	text-align: center;
+	width: 120px;
+	height: 35px;
+	background-color: #00E600!important;
+	border-color: #00E600;
+	color: white;
+	border-radius: 20px;
+	
+}
+.submit:hover{
+	background-color: #00F4EC !important;
+	border: #00F4EC;
+	color: black;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+	margin-top: 0px;
+	width: 30%;
+	border-radius: 100%;
+	background-color: #43E8EC;
+}
+
+.container {
+  padding: 16px;
+}
+
+.psw {
+  float: right;
+  padding-top: 16px;
+  margin-left: 50px;
+}
+
+/* The Modal (background) */
+.modal{
+  display: center; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 400px;
+  top: 0;
+  width: 50%; /* Full width */
+  height: 80%; /* Full height */
+  overflow: hidden; /* Enable scroll if needed */
+  padding-top: 5px;
+  border-radius: 20px;  
+}
+
+/* Modal Content/Box */
+.modal-content {
+  margin: 5% auto 10% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  border-radius: 50px;
+  width: 60%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.8s;
+  animation: animatezoom 0.8s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+/* signin end */
+
+.h-200{
+	height: 200px;
+}
+
+.h-400{
+	height: 400px;
+}
+.h-500{
+	height: 500px;
+}
+.nav-panel{
+	background-color: #06006E;
+}
+.navbar-brand{
+	font-family: 'Pinyon Script', cursive;
+	font-size: 40px;
+	color: #00FFF7 !important;
+	position: sticky;
+	top: 0px;
+}
+.navbar-brand:hover{
+	color:  #00FFF7;
+}
+.nav-link{
+	color: white;
+}
+.nav-link:hover{
+	color: #00FFF7;
+}
+
+.dropdown-item:hover{
+	color:  #0D6EFD;
+}
+.navbar-toggler{
+	background-color:#1D0090;
+	color: white;
+}
+.navbar-toggler:hover{
+	background-color: #00FFF7;
+	color: #00FFF7;
+}
+.fa-solid{
+	width: 25px;
+}
+.btn{
+	background-color: #05BEEE !important;
+	width: 120px;
+	height: 40px;
+	margin-left: 50px;	
+	border-radius: 20px;
+	border-color:  #05BEEE !important;
+}
+.btn:hover{
+	background-color: tomato !important;
+	border-color:  tomato !important;
+}
+.harrier{
+	text-decoration: none;
+	color: black;
+}
+.harrier:hover{
+	color: green;
+}
+
+ul{
+	list-style-type: none;
+}
+li{
+	text-decoration: none;
+}
+a{
+	display: inline-block;
+	padding: 12px 14px;
+}
+/*maruee start */
+.marq{
+	padding-left: 50px !important;
+	text-shadow: 1px 0 #000, 0 1px #000, 1px 0 #000, 0 1px #000, 0 0;
+	font-size:2.5em;
+}
+/* about us start */
+
+.about{
+	background: url(../img/bg-10.jpg);
+    background-size: cover;
+	background-repeat: no-repeat;
+	height: 550px;
+}
+.about-head{
+	
+	color: #1CFAF5;
+}
+.about-header{
+	font-size: 40px;
+	border-bottom: 1px solid #1CFAF5 !important;
+}
+.about-text{
+	color: black;
+	
+}
+
+.bg-4-img{
+	display: inline-block;
+	margin-top: 80px !important;
+	
+}
+/* auction page background start */
+.live-auction-img{
+	background: url(../img/bg-7.gif);
+    background-size: cover;
+	background-repeat: no-repeat;
+	height: 650px;
+}
+.live-header{
+	display: inline-block;
+	padding-top: 150px;
+	margin-left: 50px;
+	font-size: 50px; 
+	color: #00FFFF;
+}
+
+.live-head{
+	font-size: 35px;
+	
+}
+.live-red{
+	font-size: 40px;
+	color: red;
+}
+.step-head{
+	width: 100%;
+	height: 40px;
+	padding-top: 5px;
+	background-color: #005E7C;
+	color: white;
+}
+.step-head:hover{
+	background-color: #08A2C6;
+	color: white;
+}
+.underline{
+	font-size: 20px;
+	border-bottom: 1px solid lightgrey;
+}
+
+/* auction page background end */
+
+/* Pre-order start */
+.pre-head{
+	font-size: 40px;
+	color: #08A2C6;
+}
+.pre-head-2{
+	background-color: #08A2C6;
+	color: white;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.pre-head-2:hover{
+	background-color: #FF6100;
+	color: white;
+}
+.pre-text{
+	width: 100%;
+	border: 1px solid lightblue;
+	padding: 15px 15px 15px 20px;
+}
+
+/* Pre-order end */
+
+/* Choose item start */
+.cars{
+	background-color: #F2FFF8 !important;
+	margin-top: 50px !important;
+}
+.choose{
+	padding-bottom: 5px;
+	font-size: 40px;
+	color: #002F7B;
+	border-bottom: 2px solid #43E8EC;
+	margin-left: 420px;
+}
+.choose:hover{
+	color: tomato;
+	border-bottom: 2px solid blue;
+}
+
+@media screen and (max-width: 300px) {
+  span.choose {
+     display: inline-block;
+	 position: center;
+	 font-size: 20px;
+  }
+}
+
+.owl{
+	margin-top: 60px !important;
+}
+.owl-carousel{
+	overflow: hidden;
+}
+.prado{
+	text-decoration: none;
+	font-size: 16px;
+	color: #06006E;
+}
+
+.price{
+	text-decoration: none;
+}
+.price:hover{
+	color: tomato;
+}
+/* Choose item end */
+
+/* make item start*/ 
+
+
+.make{
+	background-color: #1463A5 !important;
+	text-align: center;
+	color: white;
+	padding-top: 5px;
+}
+.left{
+	float: left;
+	text-align: center;
+}
+.border{
+	border: 1px solid lightblue;
+	width: 170px;
+}
+.hr-solid{
+	border-bottom: 1px solid lightblue;
+	width: 215px;
+	border-right: 1px solid lightblue;
+}
+.items{
+	color: black;
+}
+.items:hover{
+	background-color: tomato !important;
+	width: 100%;
+}
+
+.gallery{
+	background-color: #1463A5;
+	padding-bottom: 8px;
+	color: white;
+	padding-top: 5px;
+}
+/* Ready Stock Start */
+.stock{
+	background-color: lightblue;
+	padding-bottom: 8px;
+	color: red;
+	padding-top: 5px;
+}
+
+.flip-box {
+  background-color: transparent;
+  width: 200px;
+  height: 150px;
+  perspective: 1000px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color: transparent;
+  color: white;
+  text-align: center;
+ 
+}
+
+.flip-box-back {
+  background-color: tomato;
+  color: white;
+  transform: rotateY(180deg);
+}
+.img-1{
+	background: white;
+	padding-right: 10px;
+}
+.head{
+	display: inline-block;
+	text-decoration: none;
+	font-size: 14px;
+	margin-left: 20px;
+}
+.button{
+	width: 150px;
+	height: 38px;
+	text-align: center;
+}
+.line-2{
+	margin-top: 150px !important;
+	
+}
+/* Ready stock item end*/ 
+
+/* Video item start*/ 
+
+.special{
+	background-color: #F2FFF8 !important;
+	margin-top: 100px !important;
+	padding-bottom: 50px !important;
+}
+.facility{
+	padding-bottom: 5px;
+	font-size: 40px;
+	color: #072872;
+	border-bottom: 2px solid #072872;
+	margin-left: 770px;
+}
+.facility:hover{
+	color: tomato;
+	border-bottom: 2px solid blue;
+}
+
+.text{
+	font-size: 50px;
+	color: #fff;
+}
+.card{
+	border-radius: 10px;
+	border-shadow: 5px 10px #888888;
+}
+.card:hover{
+	background-color: #43E8EC;
+}
+
+.card-title{
+	color:  #002F7B;
+	text-align: center;
+}
+.card-title:hover{
+	color:  tomato;
+	
+}
+.pre{
+	text-align: center;
+	margin-left: 80px;
+}
+.pre{
+	text-decoration: none;
+}
+.card-img-top{
+	transition: transform .2s; /* Animation */
+}
+
+.card-img-top:hover{
+	background-color: #43E8EC;
+	transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.card-text{
+	margin-left: 10px;
+	margin-right: 5px;
+}
+.live-1{
+	color: red;
+}
+.live-2{
+	color: red;
+}
+
+/* How to Buy Start */
+.buy{
+	margin-top: 100px !important;
+	background-color: #EFEFEF;
+}
+.to{
+	margin-top: 20px;
+	margin-bottom: 80px;
+}
+.how{
+	font-size: 40px;
+	margin-left: 520px;
+	border-bottom: 2px solid black;
+	color: #00A7CB;
+	padding-bottom: 5px;
+	
+}
+.follow{
+	background-color: #00A7CB;
+	font-size: 30px;
+	width:700px;
+	border: 1px solid #00A7CB;
+	margin-bottom: 60px;
+	text-align: center;
+	border-radius: 20px;
+	color: white;
+	margin-left: 280px;
+	padding-bottom: 5px;
+}
+.follow:hover{
+	background-color: tomato;
+	color: white;
+	border-color: #A5D7FF;
+}
+
+.one{
+	
+	font-size: 50px;
+	color: #00A7CB;
+	border: 4px solid;
+	text-align: center;
+	border-radius: 50%;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: 50px;
+}
+.one:hover{
+	background-color: tomato;
+	border-color: white;
+	color: white;
+}
+.car{
+	text-align: center;
+	
+}
+.car:hover{
+	color: #00A7CB;
+	
+}
+.img{
+	margin-top: 50px;
+	border: 1px solid #00A7CB;
+	height: 120px;
+	border-radius: 10px;
+	position: relative;
+	transition: transform .4s; /* Animation */
+}
+
+.img:hover{
+	background-color: yellow;
+	border-radius: 10px;
+	 transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.explain{
+	background-color: #05BEEE !important;
+	width: 140px;
+	height: 40px;
+	margin-left: 30px;	
+	border-radius: 20px;
+	border-color:  #05BEEE !important;
+	
+}
+.explain:hover{
+	background-color: tomato !important;
+	border-color:  tomato !important;
+}
+/* How to Buy end */
+
+/* Japan Auction Start */
+
+.vehicles{
+	background-color: #1072A9;
+}
+.auction-set{
+	font-size: 25px;
+	color: #FFFA00;
+	border: 4px solid;
+	text-align: center;
+	border-radius: 100%;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.auction-set:hover{
+	background-color: #00FFD5;
+	color: #320B5E;
+	border-color: #00FFD5;
+}
+.japan{
+	font-size: 20px;
+	color: white;
+}
+.gain{
+	font-size: 18px; 
+	margin-left: 255px;
+}
+.gain-2{
+	font-size: 18px; 
+	margin-left: 175px;
+}
+.live-2{
+	color: #FFFA00;
+}
+.learn-buy{
+	text-decoration: none;
+}
+.button-long{
+	background-color: #FFFA00;
+	border: 1px solid #FFFA00; 
+	width: 400px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 50px;
+	margin-left: 290px;
+	color: #320B5E;
+}
+.button-long:hover{
+	background-color: #00FFD5;
+	color: #320B5E !important;
+	border-color: #00FFD5;
+}
+/* Why Choose Us Start*/
+.choose-heading{
+	background-color: #F2FFF8;
+}
+
+.choose-head{
+	color: #04B9BF;
+}
+.choose-head:hover{
+	color: #E100FF;
+}
+
+.fas{
+	margin-right: 10px;
+	color: #04B9BF;
+	font-size: 20px;
+}
+.low{
+	margin-left: 25px;
+}
+.many-head{
+	color: #04B9BF;
+}
+.many-head:hover{
+	color: #E100FF;
+}
+.car-image:hover{
+	opacity: .8;
+}
+/* Why Choose Us End */
+
+
+/* Contact Form start */
+.contact-form-2{
+	display: inline-block;
+	text-align: center;
+	border-bottom: 1px solid;
+	color:  #003F5D !important;
+	margin-left: 300px;
+}
+.form-control{
+	height: 50px;
+	border-radius: 10px;
+	background-color: #F8F9FA;
+}
+.text-area{
+	height: 100px;
+}
+.group{
+	margin-top: 8px;
+	width: 100px;
+	height: 50px;
+}
+
+.form-btn{
+	width: 240px;
+	height: 50px;
+	background-color: #08A2C6;
+	border-color: #08A2C6; 
+	margin-left: 300px;
+	border-radius: 10px;
+}
+.form-btn:hover{
+	background-color: #00264D;
+	border-color: #00264D; 
+}
+.address{
+	display: inline-block;
+	margin-top: 60px;
+	font-size: 25px;
+	margin-left: 200px;
+	text-align: center;
+}
+.address-text{
+	margin-left: 150px;
+	
+}
+.social-address{
+	color: #1877F2;
+}
+.social-address:hover{
+	color: #003F5D;
+}
+/* Contact Form end */
+/* Services part start */
+
+.serve{
+	background: url(../img/service.png);
+    background-size: cover;
+	background-repeat: no-repeat;
+	height: 650px;
+}
+.services{
+	background-color: #08A2C6;
+	color: white;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.services:hover{
+	background-color: #FF6100;
+	color: white;
+}
+.basic-text{
+	
+	border: 1px solid lightblue;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 10px;
+	
+}
+
+
+
+
+
+/* Services part end */
+
+/* Loan Calculator Start*/
+
+.loan-calculator{
+	background-color: #5CC7D1;
+	position: relative;
+	font-family: roboto, sans-serif;
+	margin-bottom: 0;
+	
+}
+.calculate-form {
+	width: 700px;
+	position: absolute;
+	top: 0%;
+	left: 35%;
+	margin-bottom: 250px;
+	padding-left: 350px;
+	height: 300px;
+}
+.loading
+.result {
+  display: none;
+}
+@media (max-width: 750px) {
+  .loading img {
+    width: 100%;
+  }
+}
+.calculator-body{
+	color: #038022;
+	Width: 100%;
+	border: 2px solid #E0F70A;
+	text-align: center;
+	font-size: 30px;
+	padding-top: 10px;
+	border-radius: 15px;
+}
+.card-body-2{
+	margin-top: 95px !important;
+	background-color: lightblue;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	border: 3px solid #CCFF00;
+}
+.card-body-2:hover{
+	background-color: #E3FABE;
+}
+
+.crown2{
+  position: relative;
+  animation-name: crown;
+  animation-duration: 4s;
+  animation-iteration-count: 3;
+  animation-direction: 5s infinite;  
+  
+}
+@keyframes crown {
+  0%   { left:0px; top:0px;}
+  25%  { left:200px; top:0px;}
+  50%  { left:200px; top:200px;}
+  75%  { left:0px; top:200px;}
+  100% { left:0px; top:0px;}
+}
+.car-loan{
+	width: 350px;
+	background-color: yellow;
+	border-radius: 20px;
+	padding: 5px 5px;
+	text-align: center;
+	color: black;
+}
+.cell{
+	height: 38px;
+	width: 200px;
+	margin-bottom: 5px;
+	color: green;
+}
+.business{
+	color: #2802C2;
+}
+.service{
+	padding-top: 90px;
+	margin-left: 200px;
+	color: #2802C2;
+}
+.service-2{
+	margin-left: 200px;
+}
+.spouse{
+	color: #2802C2;
+}
+.who-get{
+	width: 350px;
+	background-color: yellow;
+	border-radius: 20px;
+	padding: 5px 5px;
+	text-align: center;
+}
+.who{
+	color: #C30BD0;
+}
+/* Loan Calculator end*/
+
+
+/* background image start*/
+
+.img-fluid{
+  background-image: url("../img/about.jpg");
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+  
+}
+.about-us{
+	margin-top: 50px;
+	text-align: center;
+}
+.text-box{
+	margin-top: 20px;
+	color: yellow !important;
+	font-size: 50px;
+	margin-left: 55px;
+	text-align: center;
+}
+.meet-1{
+	margin-top: 80px;
+	font-size: 18px;
+}
+.line{
+	margin-top: 260px;
+	margin-left: 140px;
+	width: 500px;
+	border-bottom: 2px solid;
+	border-radius: 100%;
+	font-size: 20px;
+	color: yellow !important;
+}
+.base{
+	margin-bottom: 30px;
+}
+.thirteen{
+	
+	display: inline;
+}
+
+/* car for everyone part start */
+.everyone{
+	font-size: 40px;
+	color: #08A2C6;
+}
+.every-car{
+	width: 320px;
+	height: 200px;
+	border: 1px solid lightgrey;
+	border-radius: 10px;
+}
+.every-car-2{
+	width: 320px;
+	height: 200px;
+	border: 1px solid lightgrey;
+	margin-left: 20px;
+	border-radius: 10px;
+}
+.car-line{
+	border-radius: 10px;
+	transition: transform .2s; /* Animation */
+}
+.car-line:hover{
+	transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+/* Big Footer start */
+.big-footer{
+	background-color: #012A3C;
+}
+.left-side{
+	text-decoration: none;
+}
+.left-side li a{
+	text-decoration: none;
+	color: white;
+}
+.left-side a:hover{
+	color: #05D7F7;
+}
+	
+.left-side-2{
+	text-decoration: none;
+}
+
+.icon{
+	font-size: 20px;
+	color: #05F5E9;
+	margin-right: 15px;
+}
+/* Small Footer Start */
+
+.small-footer{
+	background-color: #0D353F;
+	
+}
+.copy-right-a{
+	text-decoration: none;
+	color: white;
+}
+.copy-right-a:hover{
+	color: #00F8F0;
+}
+
+
+

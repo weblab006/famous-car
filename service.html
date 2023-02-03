@@ -1,0 +1,553 @@
+<!doctype html>
+<html lang="en bn">
+<head>
+    <title> Famous Car (BD) </title>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="description" content="Free Web tutorials"/>
+    <meta name="keywords" content="HTML, CSS, JavaScript"/>
+    <meta name="author" content="M. Amir Hossain"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- favion -->
+    <link rel="icon" href="assets/img/favicon.png" type="image/png"/>
+    <!-- bs 5 css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
+	
+	<link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2&family=Bebas+Neue&family=Merienda+One&family=Pinyon+Script&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2&family=Bebas+Neue&family=Great+Vibes&family=Merienda+One&family=Pinyon+Script&display=swap" rel="stylesheet">
+    
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+	<!-- owl-carousel -->
+	<link rel="stylesheet" href="assets/css/owl.carousel.css">
+	<link rel="stylesheet" href="assets/css/owl.theme.default.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/style.css"/>
+</head>
+<body>
+	<!-- Top Bar Start -->
+	
+		<!-- Top Bar Start -->
+		<div class="container-fluid top"> 
+			<div class="container"> 
+				<div class="row col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 d-flex"> 
+					<div class="email col-4 col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 "> <a class="email-text" href=""> famouscarbd@hotmail.com</a> </div>
+						<div class="digital-clock col-4 col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12"> <img class="flag" src="assets/img/flag.jpg" alt="image of flag" width="50"/>
+							<div id="clock" class="clock"> <h6>Local Time : </h6>
+							<img src="assets/img/flag.jpg" alt="image of flag" width="100"/>
+							</div> 
+							</div>
+					
+					<div class="sign col-2">  
+					<button class="btn btn-primary signin" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+					<div id="id01" class="modal">
+					  
+					  <form class="modal-content animate" action="/action_page.php" method="post">
+						<div class="imgcontainer">
+						  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+						  <h2 class="famous text-dark"> Famous Car (BD) </h2>
+							<img src="assets/img/cars/grace.png" alt="loading" width="300"/>
+						</div>
+
+						<div class="container">
+						  <label for="uname"><b>Username</b></label>
+						  <input type="text" placeholder="Enter Username" name="uname" required>
+
+						  <label for="psw"><b>Password</b></label>
+						  <input type="password" placeholder="Enter Password" name="psw" required>
+							
+						  <button class="submit" type="submit">Login</button>
+						  <label>
+							<input type="checkbox" checked="checked" name="remember"> Remember me
+						  </label>
+						</div>
+
+						<div class="container" style="background-color:#f1f1f1">
+						  <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+						  <span class="psw">Forgot <a class="password" href="#">Password?</a></span>
+						</div>
+					  </form>
+					</div>
+
+					<script>
+					// Get the modal
+					var modal = document.getElementById('id01');
+
+					// When the user clicks anywhere outside of the modal, close it
+					window.onclick = function(event) {
+						if (event.target == modal) {
+							modal.style.display = "none";
+						}
+					}
+					</script>
+					</div>
+					<div class="signup col-2"> 
+						<button class="btn btn-primary signup" a class="signup" href="#"> SignUp </button></a> 
+					</div>
+				</div>
+			</div>
+		</div>
+							
+				<!-- Top Bar End -->
+	<!-- Nav Bar Start -->
+	
+	<nav class="navbar navbar-expand-sm nav sticky-top col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+		<div class="container-fluid ">
+			<a class="navbar-brand " href="#"> <h3 class="logo"> Famous Car BD </h3></a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="navbar-nav mx-auto">
+				<li class="nav-item">
+				<a class="nav-link" href="home.html">Home</a>
+				</li>
+				<li class="nav-item">
+				<a class="nav-link" href="about.html">About Us</a>
+				</li>
+				<li class="nav-item">
+				<a class="nav-link" href="preorder.html">Pre-order</a>
+				</li>
+				<li class="nav-item">
+				<a class="nav-link" href="auction.html">Live Auction</a>
+				</li>
+					<li class="nav-item">
+				<a class="nav-link" href="how.html">How to Buy </a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="vehicles.html" role="button" data-bs-toggle="dropdown">Vehicles</a>
+						<ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="toyota.html">Toyota</a></li>
+						  <li><a class="dropdown-item" href="honda.html">Honda </a></li>
+							<li><a class="dropdown-item" href="nissan.html">Nissan</a></li>
+							<li><a class="dropdown-item" href="mitsu.html">Mitsubishi</a></li>	
+								<li><a class="dropdown-item" href="mazda.html">Mazda</a></li>
+								   <li><a class="dropdown-item" href="hinu.html">Hinu</a></li>
+								   <li><a class="dropdown-item" href="isuzu.html">Isuzu</a></li>
+								<li><a class="dropdown-item" href="bmw.html">BMW</a></li>
+							</ul>
+						</li>
+					<li class="nav-item">
+				<a class="nav-link" href="service.html">Services</a>
+			</li>
+			<li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact Us</a>
+        </li>    
+      </ul>
+    </div>
+
+  </div>
+</nav>
+	<!-- Navbar end -->
+	
+			<!-- Service part start -->
+			<div class="serve"> </div>
+			<div class="container-fluid"> 	
+				<div class="container"> <h2 class="serv-header text-center text-danger"> Purchase Services </h2>
+					<div class="row col-12 mt-5 mb-5"> 
+						<div class="col-4" > <h4 class="services text-center"> PRE-ORDER </h4> </div>
+						<div class="col-4" > <h4 class="services text-center"> LIVE AUCTION </h4> </div>
+						<div class="col-4" > <h4 class="services text-center"> HOW TO BUY </h4> </div>
+					</div>
+					<div class="row col-12 mt-5">  <h2 class="serv-header mb-5 text-center text-danger"> After Sales Services </h2>
+						<div class="col-4" > <h4 class="services text-center"> BASIC SERVICE </h4> 
+							<p class="basic-text">Every valued client will be get 01 one year after sales service without spare parts. 
+								If any client require any parts then client will bear parts cost his own source. 
+								Basic service means vehicle basic changes demand like, Mobile Change, Air-Fielter, Mobil Fielter, AC Fielter change. 
+								If require more service then customer should pay for this aditional works. </p>
+						
+						
+						</div>
+						<div class="col-4" > <h4 class="services text-center"> DENT-PAIN </h4> 
+							<p class="basic-text"> Our aim is to offer a fast, friendly and efficient car service with competitive pricing and quality assurance. 
+													If any client suddenly occured in accident and injured/damaged his vehicle then we will provide dent-paint service with payment.</p>
+						
+						
+						</div>
+						<div class="col-4" > <h4 class="services text-center"> ENGINE SERVICE </h4> 
+							<p class="basic-text">Our fully trained and knowledgeable technicians will conduct repairs to your vehicle using the latest diagnostic equipment 
+												to ensure the correct service is undertaken and that any faults found can be reported and rectified accordingly. 
+												If have any faultness in your vehicle Engine site then our authorized Engineer will solve the problems within the short time. </p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Service part end -->
+			
+			<!-- Auction part start -->
+			
+			<div class="container-fluid vehicles mt-5"> 
+				<div class="container mt-4"> 
+					<div class="row col-12"> 
+						<div class="col-2"> </div>
+							<div class="col-8 mt-4 mb-4"> <h2 class="japan text-center mt-4"> <span class="auction-set"> AUCTIONS </span> BUY VEHICLES FROM US THROUGH THE JAPANESE CAR AUCTIONS </h2>
+								<span class="gain text-center text-white"> Buy your chooses vehciles from us through Japan <span class="live-2"> LIVE </span> Auctions. </span><br/>
+								<span class="gain-2 text-white"> Save yourself from wasting your extra money by buying a car from our live auction.</span><br/>
+								<a class="learn-buy" href="#"> <p class="button-long text-center mt-5"> Learn more how to buy used cars through Auctions</p> </a>
+							</div>
+							<div class="col-2"> </div>
+					</div>
+				</div>
+			</div>
+			
+			<!-- Auction part end -->
+			
+			<!-- Why Choose Us part start -->
+			
+				<div class="container-fluid choose-heading mt-5"> 
+					<div class="container"> 
+						<div class="row col-12 d-flex"> 
+							<div class="why-choose col-6"> 
+								<h2 class="choose-head mt-5 mb-4"> WHY YOU CHOOSE US ? </h2>
+								<span class="import"> 
+											<i class="fas fa-caret-right"></i> We always import and sell quality cars.<br/> <br/>
+											<i class="fas fa-caret-right"></i> Sincere in after-sales service.<br/><br/>
+											<i class="fas fa-caret-right"></i> Try to solve any problems.<br/><br/>
+											<i class="fas fa-caret-right"></i> Committed to meet any customer's vehicle demands.<br/><br/>
+											<i class="fas fa-caret-right"></i> Supply of Cars at lower price from the market.<br/><br/>
+											<i class="fas fa-caret-right"></i> Customers would like to purchase cars from us is that many of <p class="low"> our stock vehicles are in good condition, the high quality.</p>
+											<i class="fas fa-caret-right"></i> Merchent customer's has opportunity to buy cars <p class="low"> directly from Japan Live Auction at low prices.</p></span>
+											
+											<img class="car-image mt-4" src="assets/img/banner.png" alt="image of car" width="580"/>
+							</div>
+							<div class="many col-6"> 
+								<h4 class="many-head mt-5">  Many Opportunities </h4>
+								<span class="stop"> We are declearing the heighest opportunities for our valued customers.</span><br/>
+									
+								<h4 class="inexpensive many-head mt-5">  Inexpensive </h4>
+								<span class="stop"> Best in quality, cheapest in price.</span><br/><br/><br/>
+									
+									
+								<h4 class="reliable many-head"> Highly Reliable System </h4>
+								<span> Every valued customer can purchase their chooseful cars from online through our website.  </span><br/> <br/><br/>
+								
+								<h4 class="confidence many-head"> Buy with Confidence </h4>
+								<span> With the experience of dealing with customers of entire of the country, we have been doing fair trade to build long-term relationships with our valuable customers. </span><br/> 
+							
+							</div>
+						</div>
+					</div>
+				</div>
+			
+			<!-- Why Choose us part End -->
+			
+			
+			<!-- Loan Calculator part start-->
+			
+				<div class="container-fluid mt-5 loan-calculator"> 
+					<div class="container"> 
+						<div class="row col-12 d-flex"> 
+							<div class="col-3 mt-4"> 
+								<h4 class="car-loan mt-4"> Car Loan Requirements </h4>
+								<h5 class="business mt-2"> Business Holder: </h5>
+							<ol> 
+								<li> Bank Statement last one years</li>
+								<li> Trade Lisence Photocopy </li>
+								<li> TIN Certificate Photocopy</li>
+								<li> National ID Card Photocopy</li>
+								<li> Photograph 04 Copies </li>
+								<li> Visiting Card </li>				
+							</ol><br/>										
+								<h5 class="spouse"> Spouse: </h5>
+								<ol> 
+									<li> National ID Card Photocopy</li>
+									<li> Photograph 02 Copies </li>												
+								</ol>	<br/>
+								<h5 class="who-get"> 50% to 80% Bank Loan Available </h5>
+								<h5 class="who"> Who will get Car Loan ?</h5>
+								<ol class="get-loan"> 
+									<li> Businessman</li>
+									<li> Service Holder</li>
+									<li> Land Owner (Who have Rental Income) </li>
+									<li> Doctor </li>
+									<li> Engineer </li>
+									<li> Banker </li>
+								</ol>
+						</div>				
+							<div class="col-5 crown">
+								<h5 class="service"> Service Holder: </h5>
+								<ol class="service-2"> 
+									<li> Bank Statement last one years</li>
+									<li> Salary Certificate </li>
+									<li> TIN Certificate Photocopy</li>
+									<li> National ID Card Photocopy</li>
+									<li> Photograph 04 Copies </li>
+									<li> Visiting Card </li>				
+								</ol> 
+								<img class="crown2" src="assets/img/cars/crown-1.png" alt="image of crown" width="600"/> 
+							</div>
+							
+		<div class="col-4 col-md-6 mx-auto calculate-form d-flex"> 
+			<div class="col-md-6 mx-auto calculate-form">
+				<div class="card card-body-2 text-center mt-5">
+					<h3 class="heading calculator-body pb-3">Car Loan Calculator</h3>
+						<form id="loan-form" class="form">
+							<div class="form-group">
+								<div class="input-group">
+								  <div class="input-group-prepend">
+									<span class="input-group-text">Tk</span>
+									  </div>
+									  <input
+										type="number"
+										class="form-control cell"
+										id="amount"
+										placeholder="Loan Amount"
+									  />
+									</div>
+								  </div>
+							 <div class="form-group">
+								<div class="input-group">
+									<div class="input-group-prepend">
+										<span class="input-group-text">%</span>
+									 </div>
+									<input
+									type="number"
+									class="form-control cell"
+									id="interest"
+									placeholder="Interest"
+									 />
+								</div>
+							</div>
+							<div class="form-group">
+								<input
+									type="number"
+									id="years"
+									class="form-control"
+									placeholder="Years To Repay"
+								/>
+							</div>
+						<div class="form-group mt-4 mb-2 pe-5">
+							<input
+								type="submit"
+								value="Calculate"
+								class="btn btn-dark btn-block"
+							/>
+						</div>
+							</form>
+							<!-- Loader -->
+						<div id="loading">
+							<img src="assets/img/cars/grace.png" alt="loading" width="200"/> </div>
+							<!-- Result -->
+							<div id="result">
+								<h5>Results</h5>
+								<div class="form-group">
+									<div class="input-group">
+										<div class="input-group-prepend">
+											<span class="input-group-text">Monthly Installment :</span> </div>
+										<input
+											type="number"
+											class="form-control cell"
+											id="monthly-payment"
+											disabled />
+										</div>
+									</div>
+								  <div class="form-group">
+									<div class="input-group">
+									  <div class="input-group-prepend">
+										<span class="input-group-text">Total Payment :</span>
+									  </div>
+									  <input
+										type="number"
+										class="form-control cell"
+										id="total-payment"
+										disabled
+									  />
+									</div>
+								  </div>
+								  <div class="form-group">
+									<div class="input-group">
+									  <div class="input-group-prepend">
+										<span class="input-group-text">Total Interest :</span>
+									  </div>
+									  <input
+										type="number"
+										class="form-control cell"
+										id="total-interest"
+										disabled />
+								</div>
+							</div>
+					</div>
+				</div>
+			</div>
+		</div>				
+	</div>
+	</div>
+</div>
+			<!-- Loan Calculator part end-->
+
+			<section class="container-fluid img-fluid mt-5">  
+				<div class="container"> 
+					<div class="row col-12"> 
+						<div class="col-2 meet mt-5"> 
+							<p class="meet-1 text-light">Famous Car BD guarantees to meet the demand of all types of good quality cars at all levels of customers ‍with low price. </p>
+						</div>
+						<div class="col-7"> 
+							<h3 class="text-box text-right"> We are fulfill peoples Car dream & demand </h3>
+							<h4 class="line text-center"> <span class="auto-type"> Quality Cars </span> </h4>
+							
+						</div>
+						<div class="col-3 base">  
+						<img class="base" src="assets/img/base.png" alt="image of base" width="120%"/> 
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Cars for Everyone part start -->
+		
+			<div class="container-fluid every bg-white mt-5">  <h3 class="everyone text-center mt-5"> Car's For Everyone </h3>
+				<div class="container col-12 mt-5 d-flex"> 
+						<div class="every-car col-3 d-flex"> 
+							<img class="car-line" src="assets/img/cars/prado.jpeg" alt="image of prado jeep" width="100%"/> <br/><br/><br/>
+						</div>
+						<div class="every-car-2 col-3 d-flex"> <img class="car-line" src="assets/img/cars/harrier.jpg" alt="image of prado jeep" width="100%"/>	</div>
+						<div class="every-car-2 col-3 d-flex"> <img class="car-line" src="assets/img/cars/rav4.jpeg" alt="image of prado jeep" width="100%"/> </div>
+						<div class="every-car-2 col-3 d-flex"> <img class="car-line" src="assets/img/cars/xtrail.jpeg" alt="image of prado jeep" width="100%"/></div>
+					</div>
+					<div class="container col-12 mt-5 d-flex"> 
+						<div class="every-car col-3 d-flex"> 
+							<img class="car-line" src="assets/img/cars/prado.jpeg" alt="image of prado jeep" width="100%"/> <br/><br/><br/>
+						</div>
+						<div class="every-car-2 col-3 d-flex"> <img class="car-line" src="assets/img/cars/harrier.jpg" alt="image of prado jeep" width="100%"/>	</div>
+						<div class="every-car-2 col-3 d-flex"> <img class="car-line" src="assets/img/cars/rav4.jpeg" alt="image of prado jeep" width="100%"/> </div>
+						<div class="every-car-2 col-3 d-flex"> <img class="car-line" src="assets/img/cars/xtrail.jpeg" alt="image of prado jeep" width="100%"/></div>
+					</div>
+			</div>
+		
+		<!-- Cars for Everyone part end -->
+
+		<!-- Big Footer start-->
+			<div class="container-fluid big-footer mt-5"> 
+				<div class="container"> 
+					<div class="row col-12 mt-5 pb-5"> 
+						<div class="contact col-3"> 
+							<ul class="left-side text-light"> 
+								<li><a href="home.html"> <i class="fa-solid fa-house icon"></i> Home </a> </li>
+								<li> <a href="about.html"> <i class="fa-brands fa-app-store-ios icon"></i> About Us </a>  </li>
+								<li> <a href="vehicles.html"> <i class="fa-solid fa-car-rear icon"></i> Vehicles </a>  </li>
+								<li> <a href="how.html"> <i class="fa-solid fa-money-check-dollar icon"></i> How to Buy </a>  </li>
+							</ul>
+						</div>
+						<div class="contact col-3"> 
+							<ul class="left-side text-light"> 
+								<li> <a href="auction.html"> <i class="fa-solid fa-satellite-dish icon"></i> Live Auction </a>  </li>
+								<li> <a href="preorder.html"> <i class="fa-brands fa-first-order-alt icon"></i> Pre-Order </a>  </li>
+								<li> <a href="facility.html"> <i class="fa-solid fa-people-roof icon"></i> Facilities </a>  </li>
+								<li> <a href="service.html"> <i class="fa-brands fa-servicestack icon"></i> Services </a>  </li>
+							</ul>
+						</div>
+						<div class="contact col-3"> 
+							<ul class="left-side text-light"> 
+								<li> <a href="how.html"> <i class="fa-solid fa-satellite-dish icon"></i> How to Buy </a>  </li>
+								<li> <a href="stock.html"> <i class="fa-brands fa-first-order-alt icon"></i> Ready Stock </a>  </li>
+								<li> <a href="auction.html"> <i class="fa-solid fa-people-roof icon"></i> Auctions </a>  </li>
+								<li> <a href="advert.html"> <i class="fa-brands fa-servicestack icon"></i> Advertisement </a>  </li>
+							</ul>
+
+						</div>
+						<div class="contact-div col-3">
+							<ul class="left-side text-light"> 
+								<li> <a href="loan.html"> <i class="fa-solid fa-satellite-dish icon"></i> Car Loan </a>  </li>
+								<li> <a href="calculator.html"> <i class="fa-brands fa-first-order-alt icon"></i> Loan Calculator </a>  </li>
+								<li> <a href="choose.html"> <i class="fa-solid fa-people-roof icon"></i> Why Choose Us </a>  </li>
+								<li> <a href="contact.html"> <i class="fa-brands fa-servicestack icon"></i> Contact Us </a>  </li>
+							</ul>	
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Big Footer end-->
+			
+			<!-- small Footer start-->
+			<div class="container-fluid small-footer"> 
+				<div class="container col-12 d-flex">
+					<div class="col-6 d-flex" > <p class="copy-right text-center text-light"> <small> Copyrights &copy 2022.  All rights Reseved to <a class="copy-right-a" href="home.html"> Famous Car BD </a> </p> </small> </div>
+					<div class="col-6" > <p class="famous-car text-center text-light"> <small> This <a class="copy-right-a" href="home.html"> Famous Car BD </a> Website created by <a class="copy-right-a" href="portfolio.html"> M. Amir Hossain </a> </p></small> </div>
+				</div>
+			</div>
+			
+			<!-- Small Footer end-->
+			
+    <!-- jquery js-->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- bs 5 js -->
+	<!-- owl-carousel -->
+	<script src="assets/js/owl.carousel.js"></script>
+	<script>
+		$(document).ready(function(){
+			$(".owl-carousel").owlCarousel();
+		});
+
+		var owl = $('.owl-carousel');
+		owl.owlCarousel({
+			items:4,
+			loop:true,
+			margin:10,
+			autoplay:true,
+			autoplayTimeout: 3000,
+			autoplayHoverPause:true,
+			animateOut: 'slideOutDown',
+			animateIn: 'flipInX',
+			smartSpeed: 5000,
+			dotsSpeed: 5000,
+            dragEndSpeed: 5000,
+			responsive:{
+                	0:{
+                		items: 2,
+                		nav:false,
+                	},
+                	600:{
+                		items: 2,
+                		nav:false,
+                	},
+                	1000:{
+                		items: 5,
+                		nav:false,
+                	}
+                }
+		});
+		$('.play').on('click',function(){
+			owl.trigger('play.owl.autoplay',[3000])
+		})
+		$('.stop').on('click',function(){
+			owl.trigger('stop.owl.autoplay')
+		})
+	</script>
+	
+	
+	<!-- Advertisement video JavaScript-->
+	
+		<script> 
+					var myVideo = document.getElementById("video1"); 
+
+					function playPause() { 
+					  if (myVideo.paused) 
+						myVideo.play(); 
+					  else 
+						myVideo.pause(); 
+					} 
+
+					function makeBig() { 
+						myVideo.width = 560; 
+					} 
+
+					function makeSmall() { 
+						myVideo.width = 320; 
+					} 
+
+					function makeNormal() { 
+						myVideo.width = 420; 
+					} 
+			</script> 
+									
+	
+	
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- custom js -->
+    <script src="assets/js/script.js"></script>	
+	<script src="https://cdn.jsdeliver.net/npm/typed.js@2.0.12"> </script>
+
+</body>
+</html>	
